@@ -31,7 +31,11 @@ header {
 .heading {
     color: green;
 }
- 
+
+.heading:hover{
+    text-decoration: underline 2px;
+}
+
 .title {
     font-weight: 400;
     letter-spacing: 1.5px;
