@@ -28,12 +28,13 @@ header {
     gap: 8px;
 }
  
-.heading {
-    color: green;
+.heading,h1,a{
+    color: green !important;
 }
 
-.heading:hover{
-    text-decoration: underline 2px;
+.heading,h1,a:hover{
+    color: blue !important;
+    text-decoration: underline 2px !important;
 }
 
 .title {
