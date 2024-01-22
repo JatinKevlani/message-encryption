@@ -4,7 +4,7 @@
         {
             "src": "message_encryption/wsgi.py",
             "use": "@vercel/python",
-            "config": { "maxLambdaSize": "15mb", "runtime": "python2.10"}
+            "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
         },
         {
             "src": "build_files.sh",
