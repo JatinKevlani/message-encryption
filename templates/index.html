@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, 
                          initial-scale=1.0">
     <title>Message Encryption</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <style> {{ css_str }} </style>
 </head>
 
 <body>
@@ -58,7 +58,9 @@
             </form>
         </div>
     </div>
-    <script src="../static/script.js"></script>
+    {% autoescape off %}
+    <script defer> {{ js_str }} </script>
+    {% endautoescape %}
 </body>
 
 </html>
